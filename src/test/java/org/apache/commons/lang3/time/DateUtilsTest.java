@@ -1239,6 +1239,7 @@ public class DateUtilsTest extends AbstractLangTest {
 
     @Test
     public void testSetYears() throws Exception {
+
         Date result = DateUtils.setYears(BASE_DATE, 2000);
         assertNotSame(BASE_DATE, result);
         assertDate(BASE_DATE, 2000, 6, 5, 4, 3, 2, 1);
